@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "fermaapp",
-    "slug": "fermaapp",
+    "slug": "ferma",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "33e3403a-76cd-40ba-bceb-57ebc5134308"
+      }
+    },
+    "owner": "erazyapov"
   }
 }
